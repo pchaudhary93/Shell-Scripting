@@ -1,0 +1,40 @@
+Introduction to BASH Shell Scripting
+
+Bash Shell 
+
+        Bash Shell is a Command language interpreter that executes commands. 
+
+        Commands are read from the standard input device.
+
+        The input device can be: Keyboard, A simple text file
+
+
+Different Types of Shells
+
+Bourne Shell - /bin/sh 
+
+Was written by Stephen Bourne
+
+Lacked interactivity
+
+C Shell - /bin/csh 
+
+Provides features lacking in Bourne Shell. 
+
+K Shell - /bin/ksh
+
+Was created by David Korn
+
+Has features of both B Shell and C Shell
+
+Along with some additional features. 
+
+Bash Shell - /bin/bash
+
+Was developed by GNU project
+
+Ls based on B Shell language
+
+Has features of C and K Shells
+
+Bash Shell Script - Contains a series of Bash commands in plain text file. Tells the Shell to execute this text file, instead of typing the commands.

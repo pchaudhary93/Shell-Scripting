@@ -1,0 +1,50 @@
+Array Operations in BASH
+
+Array Definition
+
+Array is a variable with multiple values
+
+Values can be of same or different types
+
+Array Characteristics
+
+No maximum limit for the size of an Array
+
+Array members need not be consecutive
+
+Array index always starts with zero
+
+Declare & assign values to an Array
+
+Syntax to declare an Array:
+
+* declare -a arrayname
+
+Syntax to assign value:
+
+        Name [index] =’value’
+
+Initialize Array during declaration
+
+Array can be declared and initialized at the same time
+
+Elements should be separated by a space
+
+Each element should be within parentheses
+
+Syntax: declare -a arratname=(‘element1’ ‘element2’ ‘element3’)
+
+Length of Array and it’s nth element
+
+Syntax to find Length: 
+
+        ${#arrayname [@] }
+
+Syntax to the nth element:
+
+        ${#arrayname [n] }
+
+Print the whole Array
+
+Syntax: 
+        ${arrayname [@] }

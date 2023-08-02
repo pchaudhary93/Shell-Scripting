@@ -1,0 +1,58 @@
+Basics of Shell Scripting 
+
+
+Bash Variables provide temporary storage for information.
+
+Can be used within the lifespan of the program.
+
+Two types of variables:
+
+        System variables
+
+        User defined variables
+
+System Variables
+
+Created and maintained by Linux Bash shell
+
+Defined by Capital letters
+
+Commonly used system variables are:
+
+BASH_VERISON
+
+HOSTNAME
+
+HOME etc
+
+User Defined Variables
+
+Created and maintained by users
+
+ Avoid uppercase for names of user defined variables
+
+Easy to differentiate between user defined and system variables.
+
+Unset
+
+The value of a variable can be unset by using the unset command
+
+The syntax for this is unset variablename
+
+Global and Local Variables
+
+In Shell script,
+
+        User defined variables can be declared globally or locally
+
+        By default, all variables are global
+
+        So, their values remain the same inside and outside the function
+
+Getting user input via keyboard
+
+The read command
+
+        Is used to accept input from the keyboard
+
+        Can also be used to assign an input value to a user defined variable

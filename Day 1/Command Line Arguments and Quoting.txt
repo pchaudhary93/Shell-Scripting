@@ -1,0 +1,41 @@
+Command Line Arguments and Quoting
+
+Command Line Arguments
+
+Shell script can accept arguments from the command line.
+
+An argument is passed to a program being called.
+
+Any number of arguments can be passed to a program.
+
+Quoting
+
+Three types of Quotes
+
+        Double quote
+
+        Single quote
+
+        Backslash
+
+Double Quote
+
+Substitutes the value of variables and commands
+
+Example:
+
+* echo “Username is $USER”
+
+It displays the username of system
+
+Single quote
+
+Preserves the literal meaning of each character of a given string.
+
+Used to turn off special meaning of all characters.
+
+Backslash
+
+Removes the special meaning from a single character
+
+Used as an escape character

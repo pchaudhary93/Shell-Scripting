@@ -1,0 +1,23 @@
+Globbing and Export Statement
+
+Globbing
+
+Filename/pathname expansion carried by BASH
+
+Globbing recognize and expands wildcards
+
+Also, interpretes standard wildcard characters like
+
+        *
+
+        ?
+
+Export command
+
+Variables are local to their own Shell
+
+Local variables can be used by same Shell or by the current Shell
+
+Exports a variable or a function to the environment of all child processes
+
+Can also change a local variable to a global variable

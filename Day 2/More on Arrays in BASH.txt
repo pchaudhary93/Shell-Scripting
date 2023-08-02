@@ -1,0 +1,28 @@
+More on Arrays in BASH
+
+
+Extract an element from an Array
+
+Elements in an Array can be extracted from any position.
+
+Position is the index number
+
+Index number always start from zero
+
+Syntax:
+        ArrayName [@] :position:Number of elements
+
+Replace an element in an Array
+
+Syntax:
+        ArrayName [n] = ‘NewWord’
+
+Add an element to an Array
+
+Syntax:
+        ArrayName= (“${ArrayName [@] }” “New_word_1” “New_word_2”)
+
+Remove an element from an Array
+
+Syntax:
+* Unset ArrayName [Index number]

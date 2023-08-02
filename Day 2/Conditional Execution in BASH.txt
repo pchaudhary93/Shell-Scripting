@@ -1,0 +1,48 @@
+Conditional Execution in BASH
+
+Test
+
+Test is a built-n command
+
+0 (True) and 1 (False)
+
+Return value depends on the evaluation of the expression
+
+Get the return status by typing $?
+
+An expression can be evaluated in two ways:
+
+        Using the keyword test
+
+        Using the expression enclosed within square brackets [ ]
+
+Conditional Execution: if
+
+Syntax:
+
+* if [ expression ] ; then
+
+Commands
+
+Fi 
+
+Basic rules of condition
+
+Keep spaces between the brackets and the expression
+
+Terminate the line using ‘;’ before keyword then
+
+Semicolon is used to terminate the statement or an expression
+
+Quote string variables if you use them in conditions
+
+Close conditional block with fi
+
+Conditional Execution: if-else
+
+Syntax:
+        If [ expression ] ; then
+        Commands
+        Else
+        Some other commands
+        Fi

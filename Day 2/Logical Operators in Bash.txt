@@ -1,0 +1,37 @@
+Logical Operators in Bash
+
+Logical Operators
+
+Logical Operators are mainly used to control program flow
+
+Logical Operators helps to link two expressions/conditions
+
+Part of if, while, or other control statements
+
+Logical AND
+
+Syntax:
+[ $condn1 ] && [ $condn2 ]
+[ $condn1 -a $condn2 ]
+
+Logical AND returns true when both condition1 and condition2 are true
+
+Logical OR
+
+Syntax:
+[ $condn1 ] || [ $condn2 ]
+[ $condn1 -o $condn2 ]
+
+Logical OR returns true when either condition1 or condition2 is true
+
+Logical NOT
+
+Inverts the Boolean value of an expression
+
+Returns true when the expression is false
+
+Returns false when the expression is true
+
+Syntax:
+        ! expression
+        [ ! expression ]

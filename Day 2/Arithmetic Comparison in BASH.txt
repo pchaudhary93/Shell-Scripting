@@ -1,0 +1,37 @@
+Arithmetic Comparison in BASH
+
+Learning Objectives
+
+-eq
+
+-ne
+
+-lt
+
+-le
+
+-gt
+
+-ge
+
+Through some examples
+
+Bash comparison- Arithmetic comparison
+
+    Arithmetic comparison
+
+    -eq (equal to)
+
+    -ne (not equal to)
+
+    Demonstration of -eq and -ne with a word count program(Used: `wc -w`)
+
+    -lt (lesser than)
+
+    -le (lesser than or equal to)
+
+    -gt (greater than)
+
+    -ge (greater than or equal to)
+
+    Demonstration of -lt,-gt, -ge and -le with a word count program(Used: `wc -c`)

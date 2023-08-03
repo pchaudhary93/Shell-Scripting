@@ -1,0 +1,81 @@
+Redirection Error handling 
+
+Input and Output
+
+Send output to a file or read input from a file
+
+Each shell command has its own input and output
+
+Redirected using a special notation
+
+Redirection and file descriptors
+
+Changing the default path of input or output
+
+In GNU/Linux everything is a file, including the hardware
+
+Common return values are:
+
+0 for Input ie Keyboard
+
+1 for Output ie Screen
+
+2 for Error ie Screen
+
+Redirection and file descriptors
+
+0, 1, 2 are POSIX numbers (FD)
+
+A redirector opens above streams to talk to a user or a program
+
+Standard Input
+
+Standard input is the default input method
+
+Used by all commands to read input
+
+Ls denoted by 0
+
+Ls known as stdin (standard input)
+
+Input Redirection
+
+Default standard input is the keyboard
+
+< is the input redirection symbol
+
+Syntax: command < filename
+
+Standard Output
+
+Displays output
+
+Default output is displayed on the screen
+
+Ls denoted by 1
+
+Ls known as stdout (Standard output)
+
+Output Redirection
+
+> is output redirection symbol
+
+Syntax: command > filename
+
+Standard error
+
+Standard error is the default output error
+
+Used to write all system errors 
+
+Ls denoted by 2
+
+Ls known as stderr (Standard error)
+
+Error Redirection
+
+Default standard error output is visible on the screen or monitor
+
+2> is error redirection symbol
+
+Syntax: command 2> error.txt

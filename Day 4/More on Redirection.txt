@@ -1,0 +1,41 @@
+More on Redirection
+
+Redirection of stderr and stdout
+
+Stderr and stdout can be redirected to the same file
+
+Can be done in multiple ways
+
+&
+
+Syntax: command & > filename
+
+2 > &1
+
+Syntax:
+
+Command > /dev/null 2 > &1
+
+/dev/null
+
+It is a special kind of file
+
+It is a null file or a place where we can dump anything
+
+It includes the output and error messages
+
+Called as bit bucket
+
+Append redirected output
+
+We can capture as well as append standard output or error to a file
+
+The output or the error will be appended at the end of the file
+
+If the file does not exist, it will create a new file
+
+Syntax
+
+Syntax:
+
+Command >> file

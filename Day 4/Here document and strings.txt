@@ -1,0 +1,34 @@
+Here document and strings
+
+Here Document
+
+It is a special-purpose block of text or code
+
+It is a form of I/O redirect
+
+It feeds a command list to an interactive program or command line
+
+It can be treated as a separate file
+
+It can be treated as multiple line input redirected to a shell script
+
+Syntax: 
+        Command ,, HERE
+
+                Text1
+
+                Text2
+
+                TextN
+
+        HERE
+
+HERE String
+
+Here string is used for input redirection from text or a variable
+
+Input is mentioned in same line within single quotes
+
+Syntax:
+
+Command <<< ‘string’

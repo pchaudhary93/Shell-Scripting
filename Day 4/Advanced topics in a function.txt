@@ -1,0 +1,27 @@
+Advanced topics in a function
+
+Source Command
+
+Used to load any file into Shell script
+
+Reads and execute commands from that file
+
+Imports code into the script
+
+Useful when multiple scripts use a common or function library
+
+Syntax:
+
+Source <filename>
+
+Source <Path_to_file>
+
+Source <filename> <arguments>
+
+Background Function
+
+Run a process in the background, we use & at the end of a function call
+
+Shell forks a child process
+
+The forked process will have a job number and a PID

@@ -1,0 +1,51 @@
+Basic of functions 
+
+Functions 
+
+Collection of commands or an algorithm
+
+It is intended to do a specific task
+
+Used to break up a complex program into separate tasks
+
+Improves overall script readability and ease of use
+
+Function: Syntax 1
+
+Function function_name
+
+{
+
+Commands
+
+}
+
+Function: Syntax 2
+
+function _name ()
+
+{
+
+Commands
+
+}
+
+Function Call
+
+Function can be called anywhere within the program
+
+Type the function name at the location where you want to call it
+
+Syntax: Function_name
+
+Workflow
+
+When bash interpreter visits function definition, it scans function
+
+Function is called on;y when its name appears
+
+When interpreter reads function name, it executes function definition
+
+Interpreter treats function name as a command
+
+Remember to define the function before calling it

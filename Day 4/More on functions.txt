@@ -1,0 +1,15 @@
+More on functions
+
+Local and Global variable
+
+Variables can be declared as local variable and global variable
+
+Local variable:
+
+        It’s value will be valid within the function, in which it is defined
+
+        Local Variables are declared using keyboard local
+
+Global variable:
+
+        The value of a global variable can be accessed throughout the script

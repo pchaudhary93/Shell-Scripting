@@ -1,0 +1,9 @@
+Recursive function
+
+Recursion
+
+One which calls itself
+
+Useful technique that simplifies complex algorithms
+
+Factorial Of A Number (flowchart)

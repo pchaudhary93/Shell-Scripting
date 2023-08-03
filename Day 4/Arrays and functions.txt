@@ -1,0 +1,20 @@
+Arrays and functions
+
+Pass an array to a function
+
+Syntax:
+        Functio_name ${array_name[@] }
+
+Return and exit in functions
+
+In Bas, ‘exit’ and ‘return’ statements gives status code of a function or a program
+
+Return in functions
+
+Return:
+        Will return to the script from where it was called. 
+
+Exit in functions
+
+Exit:
+Will end the entire script from where it is encountered.

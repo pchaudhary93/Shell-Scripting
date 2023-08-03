@@ -1,0 +1,37 @@
+Sed Commands with Files
+
+Delete Command
+
+Sed command can be used to remove specific lines which matches a given pattern in the file
+
+This command removes lines only from the pattern buffer
+
+The original file remains unchanged
+
+Syntax: sed [range1][range2] d [File]
+
+Range1, range2 are the starting and ending range
+
+It can be either a line number or pattern strings
+
+D specifies the delete option
+
+Write Command
+
+Sed reads a line and places it in a pattern buffer
+
+Then writes the pattern buffer to the given output file according to the given options
+
+Syntax:
+
+Sed ‘ADDRESS w outputfile’ inputfile
+
+Example:
+
+Sed ‘1,2 w  out.txt’ in.txt
+
+Read Command
+
+Read the content of another file
+
+It appends with each line of the input file as specified in the sed command pattern

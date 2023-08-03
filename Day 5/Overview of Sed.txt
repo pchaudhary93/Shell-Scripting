@@ -1,0 +1,59 @@
+Overview of Sed
+
+About Sed
+
+SED stands for Stream EDitor
+
+It is a simple and powerful text stream editor
+
+It is one of the powerful utility offered by Linux/Unix systems
+
+Features of Sed
+
+Sed commands can edit files even without opening it
+
+It supports regular expression which allows it to perform complex matching
+
+Most people use sed for its substitution features
+
+It performs more functions on files like searching, find and replace, insertion or deletion
+
+It is capable of solving complex text processing tasks with few lines of code
+
+It prints a selective portion of a text file
+
+Using sed we can automate the process of making edits to files
+
+Who can use Sed?
+
+Software developer
+
+System administrator
+
+GNU / Linux users
+
+Sed substitute command
+
+Workflow of Sed command
+
+Introduction to Sed command
+
+Sed substitute command
+
+Various options with the substitute command
+
+Sed commands with Files
+
+Delete command
+
+Write command
+
+Read command
+
+Append command
+
+Insert command
+
+Change command
+
+Execute command

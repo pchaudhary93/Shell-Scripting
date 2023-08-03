@@ -1,0 +1,31 @@
+Sed Substitute Command
+
+Workflow of Sed commands
+
+Read - Sed reads a line from the input stream
+
+        It can be a file or standard input
+
+        It is stored in an internal buffer called pattern buffer
+
+Execute - All Sed commands are executed sequentially on the pattern buffer
+
+Display - Sends the modified content to the output stream
+
+General Syntax: Sed
+
+Syntax:
+
+Sed [Options] …. [Command][File]
+
+Example:
+
+Sed G message.txt
+
+Substitute command
+
+Syntax:
+
+Sed ‘s/oldstring/newstring/’ file
+
+Sed ‘s/oldstring/newstring/’ file > output.txt

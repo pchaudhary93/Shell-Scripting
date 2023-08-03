@@ -1,0 +1,27 @@
+Sed Special Characters
+
+Special Characters
+
+^- Matches the beginning of the line
+
+$- Matches the end of the line
+
+. - Matches any single character
+
+*- Matches zero or more occurrence
+
+[ ]- Matches all the characters inside the [ ] 
+
+[ ] Regular expression
+
+[:alnum:]- Alphanumeric [a-z A-Z 0-9]
+
+[:alpha:]- Alphabetic [a-z A-Z]
+
+[:digit:]- Numeric digits [0-9]
+
+[:lower:]- Lower case [a-z]
+
+[:upper:]- Upper case [A-Z]
+
+[:space:]- Spaces

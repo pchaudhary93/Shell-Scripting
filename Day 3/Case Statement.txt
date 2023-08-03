@@ -1,0 +1,46 @@
+Case Statement 
+
+Case statement
+
+The Bash shell has two forms of conditional statements
+
+If statement and case statement
+
+Case statement can be alternately used in place of if-else statement
+
+Ls preferred when there are many items to select
+
+Used to implement menus is a script
+
+Case: syntax
+
+case $VARIABLE in
+
+match_1) commands
+
+;;
+
+match_n) commands
+
+;;
+
+*) command_to_execute_by_default
+
+;;
+
+esac
+
+Working of case statement
+
+The variable is compared to
+
+        Match_1
+        Match_n
+
+If one of these strings match VARIABLE, the commands until the ;; are executed
+
+If neither match VARIABLE, the commands associated with * are executed
+
+It is the default case condition because * matches all strings
+
+Esac marks the end of case block

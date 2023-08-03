@@ -1,0 +1,29 @@
+Conditional Loops
+
+Introduction to loops
+
+Loops are used to execute a group of statements repeatedly
+
+Syntax:
+        For ((exp1; exp2; exp3))
+        Do
+                Statement1
+                Statement2
+                Statement3
+        Done
+
+Syntax:
+        For variable in sequence/range
+        Do
+                Statement1
+                Statement2
+                Statement3
+        Done
+
+Syntax:
+While [ condition ]
+        Do
+                Statement1
+                Statement2
+                Statement3
+        Done

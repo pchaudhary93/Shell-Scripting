@@ -1,0 +1,22 @@
+String and File attributes
+
+Introduction
+
+There are two ways to compare a string in BASH
+
+String operator        Value
+==                        equal
+!=                        not-equal
+
+
+exit
+
+Every program returns an exit status
+
+A successful command returns 0
+
+An erroneous command returns a non-zero value
+
+Can be interpreted as error code
+
+Customize return value of the exit statement

@@ -1,0 +1,10 @@
+Using File Descriptors
+
+Introduction
+
+0, 1 and 2 are the standard file descriptors for stdin, stdout and stderr
+
+File descriptors are used for i/0 redirection
+
+Syntax:
+        Exec [File descriptor] > filename

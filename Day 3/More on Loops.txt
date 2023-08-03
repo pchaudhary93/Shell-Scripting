@@ -1,0 +1,16 @@
+More on Loops
+
+Introduction to nested loop
+
+A loop within a loop is known as nested loop
+
+Syntax:
+
+for ((exp1; exp2; exp3))
+Do
+for ((exp1; exp2; exp3))
+Do
+Statement1
+Statement2
+done
+Done
